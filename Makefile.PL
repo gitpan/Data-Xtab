@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'	=> 'Data::Xtab',
-    'VERSION'   => '1.00',
+    'VERSION_FROM'   => 'Xtab.pm',
     'linkext'   => { LINKTYPE=>'' },	# no link needed
     'dist'      => {'COMPRESS'=>'gzip -9f', 'SUFFIX' => 'gz'}
 );

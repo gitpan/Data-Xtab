@@ -8,7 +8,7 @@
 # itself.
 #
 
-Data::Xtab::VERSION = '1.00';
+$Data::Xtab::VERSION = '1.01';
 
 =head1 NAME
 

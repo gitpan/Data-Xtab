@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 
 use Data::Xtab;
 use GIFgraph::linespoints;
@@ -32,12 +32,10 @@ $my_graph->set( 'x_label' => 'Month',
                 'y_tick_number' => 10,
                 'y_label_skip' => 1 );
 
-print "my \@data = (\n";
 foreach (@graph_data) {
     my @frob = @$_;
-    print "['", join("', '", @frob),"'],\n";
 }
-exit;
+
 pop @graph_data;
 print $my_graph->plot( \@graph_data );
 

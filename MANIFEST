@@ -3,3 +3,4 @@ Makefile.PL
 README
 Xtab.pm
 test.cgi
+test.pl
